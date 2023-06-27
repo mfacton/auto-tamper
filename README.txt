@@ -18,3 +18,9 @@ Chip A is located near the center of the board and chip B is located underneath 
 For the module, it is necessary to burn the bootloader on both ATMega328p-au chips before soldering the jumper connector near the transmitter.
 To program the chips, use the 5 UART pins and ensure the RX and TX pins between chips A and B are not connected.
 After both chips A and B are programmed, you need to jumper or solder the RX pin of chip A to the TX pin of chip B for them to communicate.
+
+Module Wiring:
+12V and GND power the module.
+There are 4 sensors, F1: the feeler near the cab, F2: the feeler far from the cab, PS: the pressure sensor, and OIL: the low oil switch.
+For the four sensors there is a + and - wire, but it shouldn't matter which way it is connected.
+There are also 4 coils which control fwd, back, up, down, each having +/- and the polarity doesn't matter.
