@@ -1,4 +1,5 @@
 This is an autotamper system which includes a module that can be installed onto a module builder as well as remotes for long distance control.
+The buttons on the module builder are in order STOP, EDIT, PROG1, PROG2, PROG3
 
 NOTE:
 Circuit board files are json files which are openable through the EasyEDA design software.
