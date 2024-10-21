@@ -1,0 +1,4 @@
+### STM Build Files ###
+stm/Debug/
+stm/Drivers/
+stm/Middlewares/
